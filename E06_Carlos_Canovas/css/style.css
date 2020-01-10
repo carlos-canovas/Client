@@ -1,0 +1,140 @@
+body {
+    font-family: Montserrat, 'sans-serif';
+    background-color: #333;
+    color: #FFF;
+}
+
+h1 {
+    text-align: center;
+    color: #0CF;
+    font-weight: bold;
+}
+
+p {
+    display: inline-block;
+    position: absolute;
+    top: 1.5%;
+    left: 10%;
+}
+
+select {
+    font-family: Montserrat, 'sans-serif';
+    padding-left: 10px;
+    height: 28px;
+    cursor: pointer;
+}
+
+input[type='text'] {
+    font-family: Montserrat, 'sans-serif';
+    width: 150px;
+    height: 25px;
+    border: none;
+}
+
+input[type='button'] {
+    font-family: Montserrat, 'sans-serif';
+    margin-top: 3px;
+    height: 35px;
+    width: 100%;
+    border: none;
+}
+
+input[type='button']:hover {
+    background-color: #0CF;
+    cursor: pointer;
+}
+
+#puntuaciones {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+#tabla_puntuaciones {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 5;
+}
+
+#form {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+#pantalla_juego {
+    margin: auto;
+}
+
+#nickname {
+    color: #0CF;
+}
+
+#time {
+    position: absolute;
+    top: 1.7%;
+    left: 85%;
+    float: left;
+    height: 50px;
+    width: 200px;
+    border: 1px solid #0CF;
+    font-size: 40px;
+    text-align: center;
+}
+
+#reiniciar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardF,
+.cardN,
+.cardD {
+    height: 200px;
+    width: 150px;
+    margin: 40px;
+    background-color: #FFF;
+    color: #000;
+    float: left;
+    border-radius: 7%;
+    background-image: url('../img/logo_lol.png');
+}
+
+.on {
+    display: unset;
+}
+
+.off {
+    display: none;
+}
+
+.btn {
+    font-family: Montserrat, 'sans-serif';
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+    border: none;
+    background-color: #DDD;
+}
+
+.btn:hover {
+    background-color: #0CF;
+    cursor: pointer;
+}
+
+.btn2 {
+    font-family: Montserrat, 'sans-serif';
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #DDD;
+}
+
+.btn2:hover {
+    background-color: #0CF;
+    cursor: pointer;
+}
